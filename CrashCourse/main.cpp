@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cstdio>
 
 using namespace std;
 
@@ -7,11 +8,14 @@ int step_function(int x);
 
 int main()
 {
-	cout << "Hello World!" << endl;
-	cout << step_function(1) << endl;
-	cout << step_function(0) << endl;
-	cout << step_function(-10) << endl;
+	int num1 = 42;
+	int result1 = step_function(num1);
 
+	int num2 = 2;
+	int result2 = step_function(num2);
+
+	int num3 = -32767;
+	int result3 = step_function(num3);
 	
 	return 0;
 }
